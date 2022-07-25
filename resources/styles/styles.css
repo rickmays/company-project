@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     font-family: Merriweather;
+    box-sizing: border-box;
 }
 nav {
     height: 100px;
@@ -17,9 +18,9 @@ nav ul {
 nav ul li {
     padding: 10px;
 }
-    
 header {
     background-image: url(../images/ben-shbeeb-HyTvVA8Ye8I-unsplash.jpg);
+    background-position: top left;
     height: 31.25rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,6 +28,9 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    margin-bottom: 50px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 #header-content {
     display: flex;
@@ -45,6 +49,33 @@ H2 {
     font-family: Recursive;
     font-size: 3rem;
     font-weight: 600;
+}
+#mission {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#mission h2 {
+    font-family: "Dancing Script";
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: gray;
+    margin-bottom: 25px;
+}
+#mission p {
+    padding: 15px;
+    font-size: 1.5rem;
+    color: darkgray;
+    font-style: italic;
+    letter-spacing: .05em;
+    line-height: 1.1em;
+    text-align: center;
+}
+.line {
+    border-top: 1px solid gray;
 }
 .content-left-section {
     display: flex;
@@ -88,4 +119,27 @@ H2 {
 .image img {
     max-width: 100%;
     max-height: 100%;
+}
+.employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+.employee-content {
+    font-family: "Dancing Script";
+    margin-top: 30px;
+}
+.employee h3 {
+    font-size: 3rem;
+    text-align: center;
+} 
+.employee-content p {
+    font-family: Merriweather;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 15px;
+}
+.employee img {
+    border-radius: 50%;
 }
