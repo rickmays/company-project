@@ -74,9 +74,6 @@ H2 {
     line-height: 1.1em;
     text-align: center;
 }
-.line {
-    border-top: 1px solid gray;
-}
 .content-left-section {
     display: flex;
     flex-wrap: wrap;
@@ -115,6 +112,8 @@ H2 {
     height: auto;
     overflow: hidden;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image img {
     max-width: 100%;
@@ -142,4 +141,58 @@ H2 {
 }
 .employee img {
     border-radius: 50%;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 799px) {
+    .content {
+        width: 100%;
+        padding: 30px 20px 0 20px;
+    }
+    .content h3 {
+        margin-bottom: 30px;
+    }
+    .image {
+        width: auto;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 699px) {
+    header {
+        height: 50vh;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    #mission {
+        height: 30vh;
+        margin-bottom: 10px;
+    }
+    #mission h2 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    #mission p {
+        font-size: 1.25rem;
+        letter-spacing: .05em;
+        line-height: 1.1em;
+    }
+    .content {
+        width: 100%;
+        padding: 30px 20px 0 20px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .content h3 {
+        margin-bottom: 30px;
+        font-size: 2.75rem;
+    }
+    .image {
+        width: auto;
+    }
+
 }
