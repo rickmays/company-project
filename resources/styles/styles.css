@@ -11,12 +11,17 @@ nav {
     background: linear-gradient(to right, #d9ba83, #f9e1c4);
     display: flex;
     justify-content: end;
-}
-nav ul {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+}
+nav a {
+    padding: 10px;
+    color: black;
+}
+nav a:hover {
+    color: gray;
+}
+nav a:visited {
+    color: black;
 }
 nav ul li {
     padding: 10px;
@@ -75,6 +80,24 @@ h2 {
     letter-spacing: .05em;
     line-height: 1.1em;
     text-align: center;
+}
+#pets {
+    scroll-margin-top: 100px;
+}
+#livestock {
+    scroll-margin-top: 100px;
+}
+#farmandranch {
+    scroll-margin-top: 100px;
+}
+#wildlife {
+    scroll-margin-top: 100px;
+}
+#hay {
+    scroll-margin-top: 100px;
+}
+#contactus {
+    scroll-margin-top: 100px;
 }
 .content-left-section {
     display: flex;
