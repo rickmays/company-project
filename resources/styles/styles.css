@@ -4,6 +4,9 @@ html {
     box-sizing: border-box;
 }
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 100px;
     background: linear-gradient(to right, #d9ba83, #f9e1c4);
     display: flex;
@@ -19,6 +22,7 @@ nav ul li {
     padding: 10px;
 }
 header {
+    margin-top: 100px;
     background-image: url(../images/ben-shbeeb-HyTvVA8Ye8I-unsplash.jpg);
     background-position: center;
     height: 40vh;
