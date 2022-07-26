@@ -10,21 +10,17 @@ nav {
     height: 100px;
     background: linear-gradient(to right, #d9ba83, #f9e1c4);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
 }
 nav a {
     padding: 10px;
     color: black;
+    font-weight: 500;
 }
 nav a:hover {
     color: gray;
-}
-nav a:visited {
-    color: black;
-}
-nav ul li {
-    padding: 10px;
 }
 header {
     margin-top: 100px;
@@ -172,6 +168,44 @@ h2 {
     width: 100%;
     height: auto;
 }
+#contactus {
+    border-top: 1px solid black;
+    background-color: darkgray;
+    padding-bottom: 15px;
+    
+}
+.locations-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.locations-header h3 {
+    font-family: "Dancing Script";
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 15px;
+}
+.location {
+    margin: 15px;
+}
+#contactus h4 {
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+#contactus p {
+    line-height: 1.2;
+}
 
 /* Tablet */
 
@@ -190,6 +224,9 @@ h2 {
 /* Mobile */
 
 @media only screen and (max-width: 699px) {
+    nav {
+        justify-content: center;
+    }
     header {
         height: 30vh;
     }
