@@ -206,6 +206,41 @@ h2 {
 #contactus p {
     line-height: 1.2;
 }
+.image-attributions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.image-attributions img {
+    margin: 25px 0 15px 0;
+    font-size: 4rem;
+    box-shadow: black 3px -3px 10px;
+}
+.image-attributions h4 {
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 15px 15px 15px;
+}
+.attribution-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-attributions p {
+    font-size: 1.2rem;
+    margin: 0 15px 15px 15px;
+    text-align: center;
+    width: 45%;
+    line-height: 1.2;
+}
+.image-attributions a {
+    color: blue;
+}
+.image-attributions a:hover {
+    color: gray;
+}
 
 /* Tablet */
 
@@ -244,5 +279,9 @@ h2 {
     .content h3 {
         margin-bottom: 20px;
         font-size: 2.75rem;
+    }
+    .image-attributions p {
+        width: auto;
+        text-align: center;
     }
 }
